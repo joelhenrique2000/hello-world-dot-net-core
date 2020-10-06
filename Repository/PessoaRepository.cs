@@ -46,7 +46,7 @@ namespace hello_world_console_dotnet_core.Repository {
             return result;
         }
 
-        public int Delete(long id, string nome, string telefone) {
+        public int Delete(long id) {
             using var connection = new SqlConnection(_connectionString);
 
             var query = "DELETE FROM PESSOA WHERE id = @id";
