@@ -14,6 +14,7 @@ namespace hello_world_console_dotnet_core.Model {
             Telefone = telefone;
         }
 
+        public int Id { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }
 

@@ -1,10 +1,19 @@
-﻿using hello_world_console_dotnet_core.Model;
+﻿
+using hello_world_console_dotnet_core.Repository;
 using System;
 
 namespace hello_world_console_dotnet_core {
     class Program {
         static void Main(string[] args) {
-
+            Console.WriteLine("oijaoisd");
+            PessoaRepository rep = new PessoaRepository();
+            Console.WriteLine("asdasd");
+            rep.Insert(1, "9", "adjo");
+        }
+    }
+}
+/*
+ 
 
             while (true) {
 
@@ -30,6 +39,5 @@ namespace hello_world_console_dotnet_core {
                 Console.Clear();
                
             }
-        }
-    }
-}
+        
+ */
