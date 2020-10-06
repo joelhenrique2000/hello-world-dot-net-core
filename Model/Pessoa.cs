@@ -6,7 +6,6 @@ namespace hello_world_console_dotnet_core.Model {
     class Pessoa {
 
         public Pessoa() {
-
         }
 
         public Pessoa(string nome, string telefone) {
